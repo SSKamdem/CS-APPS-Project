@@ -1,0 +1,89 @@
+html{
+    resize: both;
+    overflow: auto;
+    font-family: 'Lucida Sans';
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    color: palevioletred;
+}
+
+.dropdown{
+    display: inline-block;
+}
+
+.dropbtn{
+    background-color: pink;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: 'Lucida Sans';
+    color: palevioletred;
+}
+
+.dropdown-content{
+    display: none;
+    background-color: whitesmoke;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 10px;
+}
+
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+
+.dropdown-content a:link {
+    color: palevioletred;
+}
+
+.dropdown-content a:visited{
+    color: palevioletred;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: gray;
+}
+
+p{
+    text-align: center;
+}
+
+img{
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 300px;
+    padding: 10px;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+}
+
+.noshrink{
+    align-self: center;
+}
+
+.mov{
+    display: flex;
+    justify-content: center;
+}
+
+audio{
+    padding: 5px;
+}
+
+.audio{
+    display: flex;
+    justify-content: center;
+}
